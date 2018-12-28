@@ -9,7 +9,7 @@ This is a repo covering the following three papers. If you find the code useful,
 **Learning to Reconstruct Shapes from Unseen Classes**<br/>
 [Xiuming Zhang](http://people.csail.mit.edu/xiuming/)&ast;, [Zhoutong Zhang](https://www.csail.mit.edu/person/zhoutong-zhang)&ast;, [Chengkai Zhang](https://www.csail.mit.edu/person/chengkai-zhang), [Joshua B. Tenenbaum](http://web.mit.edu/cocosci/josh.html), [William T. Freeman](https://billf.mit.edu/), and [Jiajun Wu](https://jiajunwu.com/)<br/>
 *NeurIPS 2018 (Oral)*<br/>
-[Paper](http://genre.csail.mit.edu/papers/genre_nips.pdf)&nbsp;|&nbsp;[BibTeX](http://genre.csail.mit.edu/bibtex/genre_nips.bib)&nbsp;|&nbsp;[Project](http://genre.csail.mit.edu/)
+[Paper](http://genre.csail.mit.edu/papers/genre_nips.pdf) &nbsp; | &nbsp; [BibTeX](http://genre.csail.mit.edu/bibtex/genre_nips.bib) &nbsp; | &nbsp; [Project](http://genre.csail.mit.edu/)
 
 	&ast; indicates equal contribution.
 
@@ -17,13 +17,13 @@ This is a repo covering the following three papers. If you find the code useful,
 **Learning Shape Priors for Single-View 3D Completion and Reconstruction**<br/>
 [Jiajun Wu](https://jiajunwu.com/)&ast;, [Chengkai Zhang](https://www.csail.mit.edu/person/chengkai-zhang)&ast;, [Xiuming Zhang](http://people.csail.mit.edu/xiuming/), [Zhoutong Zhang](https://www.csail.mit.edu/person/zhoutong-zhang), [William T. Freeman](https://billf.mit.edu/), and [Joshua B. Tenenbaum](http://web.mit.edu/cocosci/josh.html)<br/>
 *ECCV 2018*<br/>
-[Paper](http://shapehd.csail.mit.edu/papers/shapehd_eccv.pdf) | [BibTeX](http://shapehd.csail.mit.edu/bibtex/shapehd_eccv.bib) | [Project](http://shapehd.csail.mit.edu/)
+[Paper](http://shapehd.csail.mit.edu/papers/shapehd_eccv.pdf) &nbsp; | &nbsp; [BibTeX](http://shapehd.csail.mit.edu/bibtex/shapehd_eccv.bib) &nbsp; | &nbsp; [Project](http://shapehd.csail.mit.edu/)
 
 1. MarrNet<br/>
 **MarrNet: 3D Shape Reconstruction via 2.5D Sketches**<br/>
 [Jiajun Wu](https://jiajunwu.com/)&ast;, [Yifan Wang](https://homes.cs.washington.edu/~yifan1/)&ast;, [Tianfan Xue](https://people.csail.mit.edu/tfxue/), [Xingyuan Sun](http://people.csail.mit.edu/xingyuan/), [William T. Freeman](https://billf.mit.edu/), and [Joshua B. Tenenbaum](http://web.mit.edu/cocosci/josh.html)<br/>
 *NeurIPS 2017*<br/>
-[Paper](http://marrnet.csail.mit.edu/papers/marrnet_nips.pdf) | [BibTeX](http://marrnet.csail.mit.edu/bibtex/marrnet_nips.bib) | [Project](http://marrnet.csail.mit.edu/)
+[Paper](http://marrnet.csail.mit.edu/papers/marrnet_nips.pdf) &nbsp; | &nbsp; [BibTeX](http://marrnet.csail.mit.edu/bibtex/marrnet_nips.bib) &nbsp; | &nbsp; [Project](http://marrnet.csail.mit.edu/)
 
 
 
