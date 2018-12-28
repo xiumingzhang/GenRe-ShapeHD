@@ -9,7 +9,7 @@ This is a repo covering the following three papers. If you find the code useful,
 **Learning to Reconstruct Shapes from Unseen Classes**<br/>
 [Xiuming Zhang](http://people.csail.mit.edu/xiuming/)&ast;, [Zhoutong Zhang](https://www.csail.mit.edu/person/zhoutong-zhang)&ast;, [Chengkai Zhang](https://www.csail.mit.edu/person/chengkai-zhang), [Joshua B. Tenenbaum](http://web.mit.edu/cocosci/josh.html), [William T. Freeman](https://billf.mit.edu/), and [Jiajun Wu](https://jiajunwu.com/)<br/>
 *NeurIPS 2018 (Oral)*<br/>
-[Paper](http://genre.csail.mit.edu/papers/genre_nips.pdf) | [BibTeX](http://genre.csail.mit.edu/bibtex/genre_nips.bib) | [Project](http://genre.csail.mit.edu/)
+[Paper](http://genre.csail.mit.edu/papers/genre_nips.pdf)&nbsp;|&nbsp;[BibTeX](http://genre.csail.mit.edu/bibtex/genre_nips.bib)&nbsp;|&nbsp;[Project](http://genre.csail.mit.edu/)
 
 	&ast; indicates equal contribution.
 
