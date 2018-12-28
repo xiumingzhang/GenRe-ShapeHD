@@ -1,4 +1,4 @@
-# Single-Image 3D Shape Reconstruction
+# Generalizable Reconstruction (GenRe) and ShapeHD
 
 
 ## Papers
