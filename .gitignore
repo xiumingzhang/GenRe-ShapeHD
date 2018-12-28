@@ -1,0 +1,8 @@
+!.gitignore
+
+**/__pycache__/
+**/*.pyc
+**/*.swp
+
+code_test
+private
