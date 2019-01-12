@@ -3,8 +3,8 @@
 # Test ShapeHD
 
 out_dir="./output/test"
-net1=./downloads/models/marrnet1_with_minmax_new.pt
-net2=./downloads/models/shapehd_new.pt
+net1=./downloads/models/marrnet1_with_minmax.pt
+net2=./downloads/models/shapehd.pt
 rgb_pattern='./downloads/data/test/shapehd/*_rgb.*'
 mask_pattern='./downloads/data/test/shapehd/*_mask.*'
 
