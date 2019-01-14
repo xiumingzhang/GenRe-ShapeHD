@@ -37,7 +37,7 @@ All code was built and tested on Ubuntu 16.04.5 LTS with Python 3.6, PyTorch 0.4
 	git clone https://github.com/xiumingzhang/GenRe-ShapeHD.git
 	cd GenRe-ShapeHD
 	```
-	Code below assumes you are at the repo root.
+	The code below assumes you are at the repo root.
 
 1. Create a conda environment named `shaperecon` with necessary dependencies specified in `environment.yml`. In order to make sure trimesh is installed correctly, please run `install_trimesh.sh` after setting up the conda environment.
 	```
