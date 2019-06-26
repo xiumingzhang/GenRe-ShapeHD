@@ -22,7 +22,7 @@ if [ "$HAS_CUDA" == "True" ]; then
     fi
     cd cam_bp/src
     HERE=$(pwd -P)
-    cmd="nvcc -c -o back_projection_kernel.cu.o back_projection_kernel.cu -x cu -Xcompiler -fPIC -I ${TORCH}/lib/include/TH -I ${TORCH}/lib/include -I ${TORCH}/lib/include/THC -I ${HERE}\
+    cmd="nvcc -c -o back_projection_kernel.cu.o back_projection_kernel.cu -x cu -Xcompiler -fPIC -I ${TORCH}/lib/include/TH -I ${TORCH}/lib/include -I ${TORCH}/lib/include/THC -I ${HERE} -I ${TORCH}/lib/include\
         -gencode arch=compute_30,code=sm_30 \
         -gencode arch=compute_35,code=sm_35 \
         -gencode arch=compute_52,code=sm_52 \

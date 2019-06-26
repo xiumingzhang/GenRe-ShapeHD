@@ -28,8 +28,8 @@ if [ -f "$1" ]; then
 elif [ -d "$1" ]; then
     rm -r "$1";
     echo -e "${FBLE}Directory $1 removed${RS}"
-else
-    echo -e "${FRED}$1 not found${RS}"
+#else
+#    echo -e "${FRED}$1 not found${RS}"
 fi
 }
 
