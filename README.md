@@ -49,6 +49,7 @@ All code was built and tested on Ubuntu 16.04.5 LTS with Python 3.6, PyTorch 0.4
 1. The instructions below assume you have activated this environment with
 	```
 	source activate shaperecon
+	./build_toolbox.sh
 	```
 
 
