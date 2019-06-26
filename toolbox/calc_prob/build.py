@@ -1,12 +1,13 @@
 import os
 import sys
 import torch
-from torch.utils.ffi import create_extension
+from torch.utils.cpp_extension import CppExtension, BuildExtension
 
 this_file = os.path.dirname(os.path.realpath(__file__))
 print(this_file)
 
 extra_compile_args = list()
+
 
 extra_objects = list()
 assert(torch.cuda.is_available())
@@ -29,15 +30,14 @@ ffi_params = {
     'extra_compile_args': extra_compile_args,
 }
 
-ffi = create_extension(
-    'calc_prob._ext.calc_prob_lib',
-    package=True,
-    **ffi_params
-)
 
 if __name__ == '__main__':
-    ffi = create_extension(
+    ext = CppExtension(
         'calc_prob._ext.calc_prob_lib',
         package=False,
         **ffi_params)
-    ffi.build()
+    #from setuptools import setup
+    # setup()
+    BuildExtension(ext)
+
+    # ffi.build()
