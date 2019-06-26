@@ -46,11 +46,12 @@ All code was built and tested on Ubuntu 16.04.5 LTS with Python 3.6, PyTorch 0.4
 	```
 	The TensorFlow dependency in `environment.yml` is for using TensorBoard only. Remove it if you do not want to monitor your training with TensorBoard.
 
-1. The instructions below assume you have activated this environment with
+1. The instructions below assume you have activated this environment and built the cuda extension with
 	```
 	source activate shaperecon
 	./build_toolbox.sh
 	```
+Note that due to the deprecation of cffi from pytorch 1.0 and on, this only works for pytorch 0.4.1.
 
 
 ## Downloading Our Trained Models and Training Data
