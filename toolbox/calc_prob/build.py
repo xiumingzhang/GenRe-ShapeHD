@@ -1,7 +1,8 @@
 import os
 import sys
 import torch
-from torch.utils.cpp_extension import CppExtension, BuildExtension
+from torch.utils.ffi import create_extension
+
 
 this_file = os.path.dirname(os.path.realpath(__file__))
 print(this_file)
@@ -32,12 +33,12 @@ ffi_params = {
 
 
 if __name__ == '__main__':
-    ext = CppExtension(
+    ext = create_extension(
         'calc_prob._ext.calc_prob_lib',
         package=False,
         **ffi_params)
     #from setuptools import setup
     # setup()
-    BuildExtension(ext)
+    ext.build()
 
     # ffi.build()
