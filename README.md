@@ -164,4 +164,4 @@ Please open an issue if you encounter any problem. You will likely get a quicker
 ## Changelog
 
 * Dec. 28, 2018: Initial release
-* Oct. 20, 2019: Added testing data of the unseen categories, and all .xml scene files used to render training data
+* Oct. 20, 2019: Added testing data of the unseen categories, and all `.xml` scene files used to render training data
