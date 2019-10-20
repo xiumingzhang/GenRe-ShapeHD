@@ -78,6 +78,12 @@ mkdir downloads/data/shapenet/
 tar -xvf downloads/data/shapenet_cars_chairs_planes_20views.tar -C downloads/data/shapenet/
 ```
 
+**New (Oct. 20, 2019)**
+
+For training, in addition to the renderings already included in the initial release, we now also release the Mitsuba scene `.xml` files used to produce these renderings. [This download link](http://genre.csail.mit.edu/downloads/training_xml.zip) is a `.zip` (394 MB) consisting of the three training classes: cars, chairs, and airplanes. Among other scene parameters, camera poses can now be retrieved from these `.xml` files, which we hope would be useful for tasks like camera/object pose estimation.
+
+For testing, we release the data of the unseen categories shown in Table 1 of the paper. [This download link](http://genre.csail.mit.edu/downloads/shapenet_unseen.tar) is a `.tar` (44 GB) consisting of, for each of the unseen classes, the 500 random shapes we used for testing GenRe. Right now, nine classes are included, as we are tracking down the 10th.
+
 
 ## Testing with Our Models
 
@@ -152,9 +158,10 @@ Follow these steps to train the MarrNet model, excluding the reprojection consis
 
 ## Questions
 
-Please open an issue if you encounter any problem.
+Please open an issue if you encounter any problem. You will likely get a quicker response than via email.
 
 
 ## Changelog
 
-* Dec. 28, 2018: Initial Release
+* Dec. 28, 2018: Initial release
+* Oct. 20, 2019: Added testing data of the unseen categories, and all .xml scene files used to render training data
