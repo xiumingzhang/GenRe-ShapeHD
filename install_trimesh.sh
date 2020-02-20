@@ -1,5 +1,6 @@
 source activate shaperecon
 conda config --add channels conda-forge
-conda install shapely rtree pyembree numpy scipy
+conda install shapely rtree pyembree
 conda install -c conda-forge scikit-image
-pip install trimesh[all]
+conda install "pillow<7"
+pip install trimesh[all]==2.35.47
