@@ -99,7 +99,7 @@ def main(opt):
     leaf_subdirs = []
 
     for dirpath, dirnames, filenames in os.walk(dataroot_dir):
-        if (not dirnames) and opt.camera_param_dir not in dirpath:
+        if (not dirnames) and opt.mitsuba_xml_root not in dirpath:
             leaf_subdirs.append(dirpath)
 
 
@@ -107,7 +107,7 @@ def main(opt):
     for k, dir_ in enumerate(leaf_subdirs):
         print('Processing dir {}/{}: {}'.format(k, len(leaf_subdirs), dir_))
 
-        convert_cam_params_all_views(dir_, opt.dataroot, opt.camera_param_dir)
+        convert_cam_params_all_views(dir_, opt.dataroot, opt.mitsuba_xml_root)
 
 
 
@@ -115,9 +115,19 @@ def main(opt):
 
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
-    args.add_argument('--dataroot', type=str, help='GenRe data root. Absolute path is recommanded.')
-    args.add_argument('--camera_param_dir', type=str,  help='XML directory root. Absolute path is recommanded.')
+    args.add_argument('--dataroot', type=str, default='/viscam/u/alexzhou907/01DATA/shapenet/shapenet_mit_preprocessed/')
+    args.add_argument('--mitsuba_xml_root', type=str, default='/viscam/u/alexzhou907/01DATA/shapenet/shapenet_mit_preprocessed/genre-xml_v2')
 
+    opt = args.parse_args()
+
+    main(opt)
+
+if __name__ == '__main__':
+    args = argparse.ArgumentParser()
+    args.add_argument('--dataroot', type=str, help='GenRe data root. Absolute path is recommanded.')
+    # e.g. '/root/.../data/shapenet/'
+    args.add_argument('--mitsuba_xml_root', type=str,  help='XML directory root. Absolute path is recommanded.')
+    # e.g. '/root/.../data/genre-xml_v2/'
     opt = args.parse_args()
 
     main(opt)
