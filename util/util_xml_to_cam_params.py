@@ -112,16 +112,6 @@ def main(opt):
 
 
 
-
-if __name__ == '__main__':
-    args = argparse.ArgumentParser()
-    args.add_argument('--dataroot', type=str, default='/viscam/u/alexzhou907/01DATA/shapenet/shapenet_mit_preprocessed/')
-    args.add_argument('--mitsuba_xml_root', type=str, default='/viscam/u/alexzhou907/01DATA/shapenet/shapenet_mit_preprocessed/genre-xml_v2')
-
-    opt = args.parse_args()
-
-    main(opt)
-
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument('--dataroot', type=str, help='GenRe data root. Absolute path is recommanded.')
